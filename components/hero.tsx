@@ -19,7 +19,7 @@ export default function Hero() {
           <h1
             data-aos="fade-right"
             data-aos-once="true"
-            className="my-4 text-5xl font-bold leading-tight text-darken"
+            className="my-4 text-4xl md:text-5xl font-bold leading-tight text-darken"
           >
             <span className="text-yellow">Studying</span> Online is now much
             easier
@@ -28,7 +28,7 @@ export default function Hero() {
             data-aos="fade-down"
             data-aos-once="true"
             data-aos-delay="300"
-            className="leading-normal text-2xl mb-8"
+            className="leading-normal text-lg md:text-2xl mb-8"
           >
             Skilline is an interesting platform that will teach you in more an
             interactive way
@@ -40,7 +40,7 @@ export default function Hero() {
             className="w-full md:flex items-center justify-center lg:justify-start md:space-x-5 z-20 gap-5"
           >
             <button
-              className="lg:mx-0 bg-yellow text-white text-xl font-bold rounded-full py-4 px-9 focus:outline-none focus:ring-2 focus:ring-yellow focus:ring-offset-2 transform transition hover:scale-110 duration-300 ease-in-out"
+              className="lg:mx-0 bg-yellow text-white font-bold rounded-full py-4 px-9 focus:outline-none focus:ring-2 focus:ring-yellow focus:ring-offset-2 transform transition hover:scale-110 duration-300 ease-in-out text-base md:text-lg"
               aria-label="Join Skilline for free - start your learning journey"
             >
               Join for free
@@ -64,7 +64,7 @@ export default function Hero() {
                   />
                 </svg>
               </button>
-              <span className="cursor-pointer" aria-hidden="true">
+              <span className="cursor-pointer text-base md:text-lg" aria-hidden="true">
                 Watch how it works
               </span>
             </div>

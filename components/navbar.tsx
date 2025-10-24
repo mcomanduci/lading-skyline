@@ -34,37 +34,37 @@ export default function NavBar() {
           aria-label="Main navigation"
         >
           <Link
-            className="px-4 py-2 mt-2 text-sm bg-transparent rounded-lg md:mt-8 md:ml-4 hover:text-gray-900 focus:outline-none focus:shadow-outline"
+            className="px-4 py-2 mt-2 bg-transparent rounded-lg md:mt-8 md:ml-4 hover:text-gray-900 focus:outline-none focus:shadow-outline text-sm lg:text-base"
             href="#"
           >
             Home
           </Link>
           <Link
-            className="px-4 py-2 mt-2 text-sm bg-transparent rounded-lg md:mt-8 md:ml-4 hover:text-gray-900 focus:outline-none focus:shadow-outline"
+            className="px-4 py-2 mt-2 text-sm bg-transparent rounded-lg md:mt-8 md:ml-4 hover:text-gray-900 focus:outline-none focus:shadow-outline lg:text-base"
             href="#"
           >
             Careers
           </Link>
           <Link
-            className="px-4 py-2 mt-2 text-sm bg-transparent rounded-lg md:mt-8 md:ml-4 hover:text-gray-900 focus:outline-none focus:shadow-outline"
+            className="px-4 py-2 mt-2 text-sm bg-transparent rounded-lg md:mt-8 md:ml-4 hover:text-gray-900 focus:outline-none focus:shadow-outline lg:text-base"
             href="#"
           >
             Blog
           </Link>
           <Link
-            className="px-4 py-2 mt-2 text-sm bg-transparent rounded-lg md:mt-8 md:ml-4 hover:text-gray-900 focus:outline-none focus:shadow-outline"
+            className="px-4 py-2 mt-2 text-sm bg-transparent rounded-lg md:mt-8 md:ml-4 hover:text-gray-900 focus:outline-none focus:shadow-outline lg:text-base"
             href="#"
           >
             About Us
           </Link>
           <Link
-            className="px-10 py-3 mt-2 text-sm text-center bg-white text-gray-800 rounded-full md:mt-8 md:ml-4"
+            className="px-10 py-3 mt-2 text-sm text-center bg-white text-gray-800 rounded-full md:mt-8 md:ml-4 lg:text-base hover:bg-gray-50"
             href="#"
           >
             Login
           </Link>
           <Link
-            className="px-10 py-3 mt-2 text-sm text-center bg-yellow text-white rounded-full md:mt-8 md:ml-4"
+            className="px-10 py-3 mt-2 text-sm text-center bg-yellow text-white rounded-full md:mt-8 md:ml-4 lg:text-base hover:bg-yellow/80"
             href="#"
           >
             Sign Up
