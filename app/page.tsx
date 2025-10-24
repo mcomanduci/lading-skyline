@@ -11,12 +11,14 @@ import News from "@/components/news";
 import Testimonials from "@/components/testimonials";
 import Footer from "@/components/footer";
 import ClassManagement from "@/components/class-management";
+import NavBarMobile from "@/components/navbar-mobile";
 
 export default function Home() {
   return (
     <>
       <header role="banner">
         <NavBar />
+        <NavBarMobile />
       </header>
 
       <main id="main-content" role="main">
